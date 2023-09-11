@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkscherer=self.webpackChunkscherer||[]).push([[728],{6919:e=>{e.exports=JSON.parse('[{"label":"Prompt Engineering","permalink":"/scherer/blog/tags/prompt-engineering","count":1},{"label":"AI","permalink":"/scherer/blog/tags/ai","count":1}]')}}]);
