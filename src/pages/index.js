@@ -1,0 +1,116 @@
+import React from "react";
+import Layout from "@theme/Layout";
+import clsx from "clsx";
+// import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import styles from "./index.module.css";
+
+import Section from "../components/Section";
+import Blog from "../components/Blog";
+import Project from "../components/Project";
+import Screenshot_1 from "@site/static/img/Screenshot_2023-09-03_144837-blurred.webp";
+import Screenshot_2 from "@site/static/img/Screenshot_2023-09-03_144901-blurred.webp";
+import Screenshot_3 from "@site/static/img/Screenshot_2023-09-03_145203-blurred.webp";
+import Screenshot_4 from "@site/static/img/Screenshot_2023-09-03_145117-blurred.webp";
+
+export default function Home() {
+  return (
+    <Layout title="Home" description="Sebastian Scherer personal website">
+      <div className="home">
+        <div className="container-fluid">
+          <div className="row row--no-gutters">
+            <Project
+              title="Security Engineering"
+              link="/docs/security-engineering"
+              style={{
+                background: `url(${Screenshot_1})`,
+                /* Center and scale the image nicely */
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+              }}
+              width="col col--8"
+            />
+
+            <Project
+              title="Service Blueprinting"
+              link="/docs/service-blueprinting"
+              style={{
+                background: `url(${Screenshot_2})`,
+                /* Center and scale the image nicely */
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+              }}
+              width="col col--4"
+            />
+
+            <Project
+              title="Threat Modeling"
+              link="/docs/threat-modeling"
+              style={{
+                background: `url(${Screenshot_3})`,
+                /* Center and scale the image nicely */
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+              }}
+              width="col col--6"
+            />
+
+            <Project
+              title="Remote Presentations"
+              link="/docs/service-blueprinting/remote-presentations"
+              style={{
+                background: `url(${Screenshot_4})`,
+                /* Center and scale the image nicely */
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+              }}
+              width="col col--6"
+            />
+          </div>
+        </div>
+
+        <main>
+          <Section border={false}>
+            <p className={clsx(styles.highlight, styles.text)}>
+              I'm Sebastian Scherer - passionate about software, and sharing
+              what I know.
+            </p>
+
+            <p className={styles.text}>
+              Currently employed as security engineer at Mercedes Benz Tech
+              Innovation based in Ulm, Germany.
+            </p>
+
+            <p className={styles.text}>
+              My writing style is concise - no blah. If you struggle with
+              directness, please bow out.
+            </p>
+
+            <p className={styles.text}>Welcome to my home on the internet!</p>
+          </Section>
+
+          <Section border={true}>
+            <div className="row">
+              <div className="col col--5">
+                <h1 className={styles.blogTitle}>Blog</h1>
+              </div>
+
+              <div className="col col--7">
+                <Blog
+                  title="Mastering the Art of Prompt Engineering"
+                  description="Let's get one thing straight: If you think ChatGPT is just a toy to generate random text, you're wildly missing the mark. This model can be your trusty sidekick, an assistant that can tackle anything from code to research. But you've got to know how to talk to it. No, I don't mean saying please and thank you — I'm talking about mastering the art of prompt engineering. Prompt engineering is not straightforward; it requires careful thought and various considerations."
+                  link="/blog/mastering-the-art-of-prompt-engineering"
+                  tags={["New"]}
+                  date="September 2023"
+                />
+              </div>
+            </div>
+          </Section>
+        </main>
+      </div>
+    </Layout>
+  );
+}

@@ -1,0 +1,108 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  /*
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  */
+
+  --ifm-dark-value: 10%;
+  --ifm-darker-value: 15%;
+  --ifm-darkest-value: 30%;
+  --ifm-light-value: 15%;
+  --ifm-lighter-value: 30%;
+  --ifm-lightest-value: 50%;
+
+  /** 
+  * Pick colors
+  * https://docusaurus.io/docs/styling-layout 
+  */
+  --ifm-color-primary: #ea4f14;
+  --ifm-color-primary-dark: #d34712;
+  --ifm-color-primary-darker: #c74311;
+  --ifm-color-primary-darkest: #a4370e;
+  --ifm-color-primary-light: #ed602b;
+  --ifm-color-primary-lighter: #ee6936;
+  --ifm-color-primary-lightest: #f18359;
+
+  --ifm-color-secondary: #1e308d;
+  --ifm-color-secondary-dark: #253bac;
+  --ifm-color-secondary-darker: #273eb6;
+  --ifm-color-secondary-darkest: #2b45ca;
+  --ifm-color-secondary-light: #3952d5;
+  --ifm-color-secondary-lighter: #435bd7;
+  --ifm-color-secondary-lightest: #6175dd;
+
+  --ifm-color-success: #00a400;
+  --ifm-color-info: #1a5c72;
+  --ifm-color-warning: #ffba00;
+  --ifm-color-danger: #fa383e;
+
+  --ifm-color-white: #fff;
+  --ifm-color-black: #000;
+  --ifm-color-gray-0: var(--ifm-color-white);
+  --ifm-color-gray-100: #f5f6f7;
+  --ifm-color-gray-200: #ebedf0;
+  --ifm-color-gray-300: #dadde1;
+  --ifm-color-gray-400: #ccd0d5;
+  --ifm-color-gray-500: #bec3c9;
+  --ifm-color-gray-600: #8d949e;
+  --ifm-color-gray-700: #606770;
+  --ifm-color-gray-800: #444950;
+  --ifm-color-gray-900: #1c1e21;
+  --ifm-color-gray-1000: var(--ifm-color-black);
+
+  --ifm-font-family-base: Arial, sans-serif;
+  --ifm-font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+
+  --ifm-h1-font-size: 3rem; /* #2rem */
+  --ifm-h2-font-size: 1.5rem;
+  --ifm-h3-font-size: 1.25rem;
+  --ifm-h4-font-size: 1rem;
+  --ifm-h5-font-size: 0.875rem;
+  --ifm-h6-font-size: 0.85rem;
+
+  --ifm-navbar-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme="dark"] {
+  --ifm-color-primary: #ea4f14;
+  --ifm-color-primary-dark: #d34712;
+  --ifm-color-primary-darker: #c74311;
+  --ifm-color-primary-darkest: #a4370e;
+  --ifm-color-primary-light: #ed602b;
+  --ifm-color-primary-lighter: #ee6936;
+  --ifm-color-primary-lightest: #f18359;
+
+  --ifm-color-secondary: #3758f5;
+  --ifm-color-secondary-dark: #748bf8;
+  --ifm-color-secondary-darker: #889cf9;
+  --ifm-color-secondary-darkest: #b1befb;
+  --ifm-color-secondary-light: #dae0fd;
+  --ifm-color-secondary-lighter: #eef1fe;
+  --ifm-color-secondary-lightest: #ffffff;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+[data-theme="dark"] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}

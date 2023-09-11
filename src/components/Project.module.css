@@ -1,0 +1,28 @@
+.project {
+  height: 50vh;
+  transition: 0.2s;
+  border-radius: 0;
+}
+
+.project:hover {
+  -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05);
+}
+
+.title {
+  /* font-weight: 750; */
+  font-size: 3rem;
+  color: var(--ifm-color-white);
+}
+
+.title:hover {
+  color: var(--ifm-color-primary);
+}
+
+.image {
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
