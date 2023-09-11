@@ -16,6 +16,6 @@ Effectively laying the groundwork for building a secure infrastructure from the 
 
 All of the listed training materials are free:
 
-- Microsoft - [Threat Modeling Security Fundamentals](https://docs.microsoft.com/en-us/learn/paths/tm-threat-modeling-fundamentals/)
+- [Microsoft Training - Threat Modeling Security Fundamentals](https://docs.microsoft.com/en-us/learn/paths/tm-threat-modeling-fundamentals/)
 
 - [Threat Modeling Manifesto](https://www.threatmodelingmanifesto.org/)
