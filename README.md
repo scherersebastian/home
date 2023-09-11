@@ -1,4 +1,4 @@
-# Scherer
+# scherer
 
 This is my personal website.
 

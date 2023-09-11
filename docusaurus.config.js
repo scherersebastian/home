@@ -9,12 +9,12 @@ const config = {
   title: "Sebastian Scherer",
   tagline: "Welcome to my home on the internet!",
   url: "https://the-tatanka.github.io/",
-  baseUrl: "/personal-website/",
+  baseUrl: "/scherer/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "the-tatanka", // Usually your GitHub org/user name.
-  projectName: "personal-website", // Usually your repo name.
+  projectName: "scherer", // Usually your repo name.
   deploymentBranch: "gh-pages",
 
   presets: [
@@ -28,16 +28,14 @@ const config = {
           ],
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/the-tatanka/personal-website/blob/master/",
+          editUrl: "https://github.com/the-tatanka/scherer/blob/master/",
         },
         blog: {
           blogSidebarTitle: "All posts",
           blogSidebarCount: "ALL",
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/the-tatanka/personal-website/blob/master/",
+          editUrl: "https://github.com/the-tatanka/scherer/blob/master/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
