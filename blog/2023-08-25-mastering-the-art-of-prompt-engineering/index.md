@@ -25,8 +25,6 @@ Alright, before we get into the nitty-gritty techniques, let's set the stage wit
 
 - Avoid leading the model to a specific answer.
 
-### Example
-
 **Instead of:**
 
 ```plaintext
