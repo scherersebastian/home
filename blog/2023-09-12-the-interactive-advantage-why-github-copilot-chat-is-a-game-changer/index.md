@@ -1,9 +1,10 @@
 ---
 slug: the-interactive-advantage-why-github-copilot-chat-is-a-game-changer
-title: The Interactive Advantage: Why GitHub Copilot Chat is a Game-Changer
 authors: tatanka
 tags: [Prompt Engineering, AI, CoPilot]
 ---
+
+# The Interactive Advantage: Why GitHub Copilot Chat is a Game-Changer
 
 GitHub's Copilot Chat takes AI in development to a new level. Integrated into your code editor, this chatbot enhances the already impressive GitHub Copilot. Its revolutionary aspect lies in increased interactivity, allowing for nuanced communication with AI. Currently in beta, it's available for enterprise customers using Visual Studio and Visual Studio Code.
 
