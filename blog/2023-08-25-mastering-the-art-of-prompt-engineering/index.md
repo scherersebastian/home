@@ -141,7 +141,7 @@ There are several ways to detect and mitigate the risks of AI hallucinations:
 
 2. Model Auditing: Regularly evaluate the model's output in different scenarios to identify any erratic behavior.
 
-3. Output Validation: Always include a layer of human oversight or automated checks to validate the model's output against known parameters or ground truth.
+3. Output Validation: Include a layer of human oversight or automated checks to validate the model's output against known parameters or ground truth.
 
 ### Best Practice: Review Your Outputs
 
