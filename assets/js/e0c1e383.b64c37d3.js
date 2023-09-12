@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkscherer=self.webpackChunkscherer||[]).push([[198],{8296:e=>{e.exports=JSON.parse('{"permalink":"/scherer/blog/tags/co-pilot","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
