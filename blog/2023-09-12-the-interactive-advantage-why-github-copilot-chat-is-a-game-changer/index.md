@@ -18,7 +18,7 @@ While GitHub Copilot already offers code suggestions, Copilot Chat takes AI inte
 
 GitHub Copilot Chat is unique in its real-time, context-aware capabilities. It's _"more than just a chat window,"_ offering tailored programming support, real-time advice, security fixes, and code analysis.
 
-The example performs a security code review with GitHub CoPilot Chat for a Dockerfile.
+The example below performs a security code review with GitHub CoPilot Chat for a Dockerfile.
 
 ```plaintext
 Perform a security code review for the selected code, consider known security rules related to container security.
