@@ -1,4 +1,4 @@
-# scherer
+# home
 
 This is my personal website.
 

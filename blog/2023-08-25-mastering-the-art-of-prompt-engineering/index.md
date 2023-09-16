@@ -1,7 +1,7 @@
 ---
 slug: mastering-the-art-of-prompt-engineering
 title: Mastering the Art of Prompt Engineering
-authors: tatanka
+authors: scherersebastian
 tags: [Prompt Engineering, AI]
 ---
 

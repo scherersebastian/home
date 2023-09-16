@@ -1,6 +1,6 @@
 ---
 slug: the-interactive-advantage-why-github-copilot-chat-is-a-game-changer
-authors: tatanka
+authors: scherersebastian
 tags: [Prompt Engineering, AI, CoPilot]
 ---
 

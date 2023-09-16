@@ -8,13 +8,13 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Sebastian Scherer",
   tagline: "Welcome to my home on the internet!",
-  url: "https://the-tatanka.github.io/",
-  baseUrl: "/scherer/",
+  url: "https://scherersebastian.github.io/",
+  baseUrl: "/home/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "the-tatanka", // Usually your GitHub org/user name.
-  projectName: "scherer", // Usually your repo name.
+  organizationName: "scherersebastian", // Usually your GitHub org/user name.
+  projectName: "home", // Usually your repo name.
   deploymentBranch: "gh-pages",
 
   presets: [
@@ -28,14 +28,14 @@ const config = {
           ],
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/the-tatanka/scherer/blob/master/",
+          editUrl: "https://github.com/scherersebastian/home/blob/main/",
         },
         blog: {
           blogSidebarTitle: "All posts",
           blogSidebarCount: "ALL",
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl: "https://github.com/the-tatanka/scherer/blob/master/",
+          editUrl: "https://github.com/scherersebastian/home/blob/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -77,7 +77,7 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/the-tatanka",
+            href: "https://github.com/scherersebastian",
             label: "GitHub",
             position: "right",
           },
@@ -96,7 +96,7 @@ const config = {
           },
           {
             label: "Github",
-            href: "https://github.com/the-tatanka",
+            href: "https://github.com/scherersebastian",
           },
           {
             label: "LinkedIn",
