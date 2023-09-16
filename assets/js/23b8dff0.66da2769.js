@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkscherer=self.webpackChunkscherer||[]).push([[585],{853:e=>{e.exports=JSON.parse('{"label":"CoPilot","permalink":"/scherer/blog/tags/co-pilot","allTagsPath":"/scherer/blog/tags","count":1}')}}]);
