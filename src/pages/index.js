@@ -107,7 +107,15 @@ export default function Home() {
                   title="Mastering the Art of Prompt Engineering"
                   description="Let's get one thing straight: If you think ChatGPT is just a toy to generate random text, you're wildly missing the mark. This model can be your trusty sidekick, an assistant that can tackle anything from code to research. But you've got to know how to talk to it. No, I don't mean saying please and thank you — I'm talking about mastering the art of prompt engineering. Prompt engineering is not straightforward; it requires careful thought and various considerations."
                   link="/blog/mastering-the-art-of-prompt-engineering"
-                  tags={["New"]}
+                  tags={["Prompt Engineering", "AI"]}
+                  date="September 2023"
+                />
+
+                <Blog
+                  title="The Interactive Advantage: Why GitHub Copilot Chat is a Game-Changer"
+                  description="GitHub's Copilot Chat takes AI in development to a new level. Integrated into your code editor, this chatbot enhances the already impressive GitHub Copilot. Its revolutionary aspect lies in increased interactivity, allowing for nuanced communication with AI. Currently in beta, it's available for enterprise customers using Visual Studio and Visual Studio Code."
+                  link="/blog/the-interactive-advantage-why-github-copilot-chat-is-a-game-changer"
+                  tags={["Prompt Engineering", "AI", "CoPilot"]}
                   date="September 2023"
                 />
               </div>
