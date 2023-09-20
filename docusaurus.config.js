@@ -89,6 +89,10 @@ const config = {
                 to: "/YourCustomPage1",
                 label: "Custom Page 1",
               },
+              {
+                to: "/LoginPage",
+                label: "Login",
+              },
               /*
               {
                 to: "/YourCustomPage2",
