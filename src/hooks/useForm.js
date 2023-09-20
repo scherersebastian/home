@@ -1,20 +1,19 @@
 import { useState } from "react";
 
-const useForm = (formState) => {
-  const [user, setUser] = useState(formState);
+const useForm = (initialState) => {
+  const [formValues, setFormValues] = useState(initialState);
 
-  const onChangeInput = (e) => {
-    const { name, value } = e.target;
-    setUser({ ...user, [name]: value });
+  const onChangeInput = (name, value) => {
+    setFormValues({ ...formValues, [name]: value });
   };
 
   const onSubmitForm = (e) => {
     e.preventDefault();
-    console.log("user", user);
+    console.log("Form values:", formValues);
   };
 
   return {
-    user,
+    formValues,
     onChangeInput,
     onSubmitForm,
   };
