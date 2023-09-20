@@ -20,8 +20,7 @@ const config = {
   presets: [
     [
       "classic",
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      {
         docs: {
           remarkPlugins: [
             [require("mdx-mermaid"), { mermaid: { theme: "neutral" } }],
@@ -40,7 +39,7 @@ const config = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
-      }),
+      },
     ],
   ],
 
@@ -80,6 +79,23 @@ const config = {
             href: "https://github.com/scherersebastian",
             label: "GitHub",
             position: "right",
+          },
+          {
+            type: "dropdown",
+            label: "Apps",
+            position: "left",
+            items: [
+              {
+                to: "/YourCustomPage1",
+                label: "Custom Page 1",
+              },
+              /*
+              {
+                to: "/YourCustomPage2",
+                label: "Custom Page 2",
+              },
+              */
+            ],
           },
         ],
       },
