@@ -90,8 +90,8 @@ const config = {
                 label: "Custom Page 1",
               },
               {
-                to: "/LoginPage",
-                label: "Login",
+                to: "/IssuePulse",
+                label: "Issue Pulse",
               },
               /*
               {
