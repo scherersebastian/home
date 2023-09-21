@@ -4,7 +4,7 @@ import useForm from "../hooks/useForm";
 
 async function fetchOrgRepos(org, headers) {
   const response = await fetch(
-    `https://api.github.com/orgs/${org}/repos?type=all`,
+    `https://api.github.com/orgs/${org}/repos?type=all&per_page=100`,
     {
       headers,
     }
@@ -14,7 +14,7 @@ async function fetchOrgRepos(org, headers) {
 
 async function fetchUserRepos(user, headers) {
   const response = await fetch(
-    `https://api.github.com/users/${user}/repos?type=all&per_page=100`,
+    `https://api.github.com/user/repos?per_page=100&affiliation=owner`,
     {
       headers,
     }
