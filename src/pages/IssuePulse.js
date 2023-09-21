@@ -41,7 +41,7 @@ async function fetchIssues(orgOrUser, labels, headers, isUser) {
     ? await fetchUserRepos(orgOrUser, headers)
     : await fetchOrgRepos(orgOrUser, headers);
 
-  console.log("Repos:", repos);
+  // console.log("Repos:", repos);
 
   const issuesPromises = repos.map((repo) =>
     fetchRepoIssues(repo.full_name, labels, headers)
