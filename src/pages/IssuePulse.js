@@ -85,49 +85,95 @@ function IssuePulse() {
   };
 
   return (
-    <Layout title="GitHub Issues Page" description="Fetch issues from GitHub">
-      <div className="container margin-top--md">
-        <form onSubmit={onSubmitForm}>
-          <label>
-            <input
-              type="checkbox"
-              name="isUser"
-              checked={formValues.isUser}
-              onChange={(e) => onChangeInput(e.target.name, e.target.checked)}
-            />
-            Fetch from User instead of Org
-          </label>
+    <Layout title="Issue Pulse" description="Fetch issues from GitHub">
+      <div className="container margin-top--lg">
+        <div className="hero shadow--lw">
+          <div className="container">
+            <h1 className="hero__title">Issue Pulse</h1>
+            <p className="hero__subtitle">
+              Complementing{" "}
+              <a href="https://github.com/scherersebastian/issue-injector">
+                Issue Injector
+              </a>
+              , Issue Pulse is your comprehensive overview for cross-repository
+              security issues. Keep a pulse on every vulnerability.
+            </p>
 
-          <input
-            name="org"
-            value={org}
-            placeholder="Type your GitHub organisation..."
-            onChange={(e) => onChangeInput(e.target.name, e.target.value)}
-            style={{ width: "100%", marginBottom: "10px" }}
-          />
-          <input
-            name="pat"
-            value={pat}
-            type="password"
-            placeholder="Type your Personal Access Token (PAT)..."
-            onChange={(e) => onChangeInput(e.target.name, e.target.value)}
-            style={{ width: "100%", marginBottom: "10px" }}
-          />
-          <input
-            name="labels"
-            value={labels}
-            placeholder="Type issue labels (comma-separated)..."
-            onChange={(e) => onChangeInput(e.target.name, e.target.value)}
-            style={{ width: "100%", marginBottom: "10px" }}
-          />
-          <button
-            className="button button--primary"
-            type="submit"
-            style={{ width: "100%" }}
-          >
-            Fetch Issues
-          </button>
-        </form>
+            <div>
+              <form onSubmit={onSubmitForm}>
+                <div className="margin-top--md">
+                  <label>
+                    <input
+                      type="checkbox"
+                      name="isUser"
+                      checked={formValues.isUser}
+                      onChange={(e) =>
+                        onChangeInput(e.target.name, e.target.checked)
+                      }
+                    />
+                    Fetch issues from User instead of Organisation
+                  </label>
+                </div>
+
+                <div className="margin-top--md">
+                  <label>
+                    Organisation:
+                    <input
+                      name="org"
+                      value={org}
+                      placeholder="Type your GitHub organisation..."
+                      onChange={(e) =>
+                        onChangeInput(e.target.name, e.target.value)
+                      }
+                      style={{ width: "100%", height: "35px" }}
+                    />
+                  </label>
+                </div>
+
+                <div className="margin-top--md">
+                  <label>
+                    Personal Access Token (PAT):
+                    <input
+                      name="pat"
+                      value={pat}
+                      type="password"
+                      placeholder="Type your PAT..."
+                      onChange={(e) =>
+                        onChangeInput(e.target.name, e.target.value)
+                      }
+                      style={{ width: "100%", height: "35px" }}
+                    />
+                  </label>
+                </div>
+
+                <div className="margin-top--md">
+                  <label>
+                    Issue Labels (comma-separated):
+                    <input
+                      name="labels"
+                      value={labels}
+                      placeholder="e.g. security, kics, bug"
+                      onChange={(e) =>
+                        onChangeInput(e.target.name, e.target.value)
+                      }
+                      style={{ width: "100%", height: "35px" }}
+                    />
+                  </label>
+                </div>
+
+                <div className="margin-top--md">
+                  <button
+                    className="button button--primary"
+                    type="submit"
+                    style={{ width: "100%" }}
+                  >
+                    Fetch Issues
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
 
         {issues.length > 0 && (
           <table style={{ width: "100%", marginTop: "20px" }}>
