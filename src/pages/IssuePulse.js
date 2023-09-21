@@ -185,7 +185,7 @@ function IssuePulse() {
   return (
     <Layout title="Issue Pulse" description="Fetch issues from GitHub">
       <div className="container margin-top--lg">
-        <div className="hero shadow--lw">
+        <div className="hero shadow--lw margin-bottom--md">
           <div className="container">
             <h1 className="hero__title">Issue Pulse</h1>
             <p className="hero__subtitle">
