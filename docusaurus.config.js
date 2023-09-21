@@ -86,12 +86,12 @@ const config = {
             position: "left",
             items: [
               {
-                to: "/YourCustomPage1",
-                label: "Custom Page 1",
-              },
-              {
                 to: "/IssuePulse",
                 label: "Issue Pulse",
+              },
+              {
+                to: "/GitSecOps",
+                label: "GitSecOps",
               },
               /*
               {
