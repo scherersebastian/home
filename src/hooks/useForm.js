@@ -9,7 +9,7 @@ const useForm = (initialState) => {
 
   const onSubmitForm = (e) => {
     e.preventDefault();
-    console.log("Form values:", formValues);
+    // console.log("Form values:", formValues);
   };
 
   return {
