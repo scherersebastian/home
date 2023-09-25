@@ -79,7 +79,7 @@ function IssuePulse() {
       const labelsArray = labels.split(",").map((label) => label.trim());
       const allIssues = await fetchIssues(org, labelsArray, headers, isUser);
 
-      console.log("All issues:", allIssues);
+      // console.log("All issues:", allIssues);
 
       setIssues(allIssues);
     } catch (error) {

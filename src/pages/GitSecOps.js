@@ -59,7 +59,7 @@ function GitSecOps() {
 
     try {
       const allFindings = await fetchFindings(org, headers, severity);
-      console.log("All findings:", allFindings);
+      // console.log("All findings:", allFindings);
       setFindings(allFindings);
     } catch (error) {
       console.error("There was a problem with the fetch operation:", error);
