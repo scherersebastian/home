@@ -62,6 +62,7 @@ function GitSecOps() {
       // console.log("All findings:", allFindings);
       setFindings(allFindings);
     } catch (error) {
+      // Throws errors for repos without code scanning enabled
       console.error("There was a problem with the fetch operation:", error);
     }
   };
