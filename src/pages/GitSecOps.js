@@ -10,12 +10,13 @@ async function fetchOrgRepos(org, headers) {
       headers,
     }
   );
+
   return response.json();
 }
 
 async function fetchRepoFindings(repoFullName, headers, severity) {
   const response = await fetch(
-    `https://api.github.com/repos/${repoFullName}/code-scanning/alerts?state=open&severity=${severity}`,
+    `https://api.github.com/repos/${repoFullName}/code-scanning/alerts?state=open&severity=${severity}&per_page=100`,
     {
       headers,
     }
@@ -149,12 +150,11 @@ function GitSecOps() {
           </div>
         </div>
 
-        {/*
-        <FindingsTable findings={findings} />
-        */}
-
         {findings.length > 0 ? (
-          <FindingsTable findings={findings} />
+          <div>
+            <p>{findings.length}</p>
+            <FindingsTable findings={findings} />
+          </div>
         ) : (
           <div>
             <p>No findings fetched. Please fetch findings to view them here.</p>
