@@ -28,7 +28,7 @@ function FindingsTable({ findings }) {
       </thead>
       <tbody>
         {findings
-          .filter((finding) => finding.rule && finding.rule.id)
+          .filter((finding) => finding.rule && finding.rule.id) // Skip findings with "no analysis found"
           .map((finding, index) => {
             const uniqueKey = `${finding.number}-${index}`;
             const repoName = extractRepoName(finding.html_url);
