@@ -28,21 +28,21 @@
   * Pick colors
   * https://docusaurus.io/docs/styling-layout 
   */
-  --ifm-color-primary: #ea4f14;
-  --ifm-color-primary-dark: #d34712;
-  --ifm-color-primary-darker: #c74311;
-  --ifm-color-primary-darkest: #a4370e;
-  --ifm-color-primary-light: #ed602b;
-  --ifm-color-primary-lighter: #ee6936;
-  --ifm-color-primary-lightest: #f18359;
+  --ifm-color-primary: #1a5fb4;
+  --ifm-color-primary-dark: #1755a2;
+  --ifm-color-primary-darker: #165199;
+  --ifm-color-primary-darkest: #12427e;
+  --ifm-color-primary-light: #1d68c6;
+  --ifm-color-primary-lighter: #1e6dcf;
+  --ifm-color-primary-lightest: #2b7ce0;
 
-  --ifm-color-secondary: #1e308d;
-  --ifm-color-secondary-dark: #253bac;
-  --ifm-color-secondary-darker: #273eb6;
-  --ifm-color-secondary-darkest: #2b45ca;
-  --ifm-color-secondary-light: #3952d5;
-  --ifm-color-secondary-lighter: #435bd7;
-  --ifm-color-secondary-lightest: #6175dd;
+  --ifm-color-secondary: #5e5c64;
+  --ifm-color-secondary-dark: #55535a;
+  --ifm-color-secondary-darker: #504e55;
+  --ifm-color-secondary-darkest: #424046;
+  --ifm-color-secondary-light: #67656e;
+  --ifm-color-secondary-lighter: #6c6a73;
+  --ifm-color-secondary-lightest: #7a7882;
 
   --ifm-color-success: #00a400;
   --ifm-color-info: #1a5c72;
@@ -79,21 +79,21 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
-  --ifm-color-primary: #ea4f14;
-  --ifm-color-primary-dark: #d34712;
-  --ifm-color-primary-darker: #c74311;
-  --ifm-color-primary-darkest: #a4370e;
-  --ifm-color-primary-light: #ed602b;
-  --ifm-color-primary-lighter: #ee6936;
-  --ifm-color-primary-lightest: #f18359;
+  --ifm-color-primary: #4f96eb;
+  --ifm-color-primary-dark: #3385e8;
+  --ifm-color-primary-darker: #257de6;
+  --ifm-color-primary-darkest: #1666c5;
+  --ifm-color-primary-light: #6ba7ee;
+  --ifm-color-primary-lighter: #79aff0;
+  --ifm-color-primary-lightest: #a4c8f5;
 
-  --ifm-color-secondary: #3758f5;
-  --ifm-color-secondary-dark: #748bf8;
-  --ifm-color-secondary-darker: #889cf9;
-  --ifm-color-secondary-darkest: #b1befb;
-  --ifm-color-secondary-light: #dae0fd;
-  --ifm-color-secondary-lighter: #eef1fe;
-  --ifm-color-secondary-lightest: #ffffff;
+  --ifm-color-secondary: #9a9996;
+  --ifm-color-secondary-dark: #8b8a87;
+  --ifm-color-secondary-darker: #84827f;
+  --ifm-color-secondary-darkest: #6c6b68;
+  --ifm-color-secondary-light: #a9a8a5;
+  --ifm-color-secondary-lighter: #b0b0ad;
+  --ifm-color-secondary-lightest: #c7c6c4;
 }
 
 .docusaurus-highlight-code-line {
