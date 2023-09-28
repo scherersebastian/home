@@ -27,36 +27,45 @@ function FindingsTable({ findings }) {
         </tr>
       </thead>
       <tbody>
-        {findings
-          .filter((finding) => finding.rule && finding.rule.id) // Skip findings with "no analysis found"
-          .map((finding, index) => {
-            const uniqueKey = `${finding.number}-${index}`;
-            const repoName = extractRepoName(finding.html_url);
-            return (
-              <React.Fragment key={uniqueKey}>
-                <tr onClick={() => toggleFinding(uniqueKey)}>
-                  <td>
-                    {finding.rule.id}{" "}
-                    <a
-                      href={finding.html_url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {finding.rule.name}
-                    </a>
-                  </td>
-                  <td>{finding.rule.severity}</td>
-                  <td>{finding.tool.name}</td>
-                  <td>{repoName}</td>
-                </tr>
-                {openedFindingKey === uniqueKey && (
-                  <tr>
-                    <td colSpan={4}>{finding.rule.description}</td>
+        {findings.length === 0 ||
+        !findings.some((finding) => finding.rule && finding.rule.id) ? (
+          <tr>
+            <td colSpan={4}>
+              No findings fetched. Please fetch findings to view them here.
+            </td>
+          </tr>
+        ) : (
+          findings
+            .filter((finding) => finding.rule && finding.rule.id) // Skip findings with "no analysis found"
+            .map((finding, index) => {
+              const uniqueKey = `${finding.number}-${index}`;
+              const repoName = extractRepoName(finding.html_url);
+              return (
+                <React.Fragment key={uniqueKey}>
+                  <tr onClick={() => toggleFinding(uniqueKey)}>
+                    <td>
+                      {finding.rule.id}{" "}
+                      <a
+                        href={finding.html_url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {finding.rule.name}
+                      </a>
+                    </td>
+                    <td>{finding.rule.severity}</td>
+                    <td>{finding.tool.name}</td>
+                    <td>{repoName}</td>
                   </tr>
-                )}
-              </React.Fragment>
-            );
-          })}
+                  {openedFindingKey === uniqueKey && (
+                    <tr>
+                      <td colSpan={4}>{finding.rule.description}</td>
+                    </tr>
+                  )}
+                </React.Fragment>
+              );
+            })
+        )}
       </tbody>
     </table>
   );

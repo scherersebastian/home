@@ -150,16 +150,7 @@ function GitSecOps() {
           </div>
         </div>
 
-        {findings.length > 0 ? (
-          <div>
-            <p>{findings.length}</p>
-            <FindingsTable findings={findings} />
-          </div>
-        ) : (
-          <div>
-            <p>No findings fetched. Please fetch findings to view them here.</p>
-          </div>
-        )}
+        <FindingsTable findings={findings} />
       </div>
     </Layout>
   );
