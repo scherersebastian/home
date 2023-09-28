@@ -25,7 +25,7 @@ export default function Blog({
           <span
             key={index}
             className={clsx(
-              "badge badge--secondary margin-right--xs",
+              "badge badge--primary margin-right--xs",
               styles.tag
             )}
           >
