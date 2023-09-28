@@ -178,13 +178,7 @@ function IssuePulse() {
           </div>
         </div>
 
-        {issues.length > 0 ? (
-          <IssueTable issues={issues} />
-        ) : (
-          <div>
-            <p>No issues fetched. Please fetch issues to view them here.</p>
-          </div>
-        )}
+        <IssueTable issues={issues} />
       </div>
     </Layout>
   );
