@@ -2,6 +2,7 @@
   width: 100%;
   /* border-collapse: collapse; */
   min-width: 1288px;
+  margin-bottom: 100px;
 }
 
 .findingsTable th,
