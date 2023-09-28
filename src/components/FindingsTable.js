@@ -29,11 +29,21 @@ function FindingsTable({ findings }) {
       <tbody>
         {findings.length === 0 ||
         !findings.some((finding) => finding.rule && finding.rule.id) ? (
-          <tr>
-            <td colSpan={4}>
-              No findings fetched. Please fetch findings to view them here.
-            </td>
-          </tr>
+          <React.Fragment>
+            <tr>
+              <td colSpan={4}>
+                No findings fetched. Please fetch findings to view them here.
+              </td>
+            </tr>
+            <tr>
+              <td colSpan={4}>Or</td>
+            </tr>
+            <tr>
+              <td colSpan={4}>
+                No valid findings available. Check your criteria.
+              </td>
+            </tr>
+          </React.Fragment>
         ) : (
           findings
             .filter((finding) => finding.rule && finding.rule.id) // Skip findings with "no analysis found"

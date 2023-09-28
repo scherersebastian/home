@@ -23,11 +23,21 @@ function IssueTable({ issues }) {
       </thead>
       <tbody>
         {issues.length === 0 ? (
-          <tr>
-            <td colSpan={3}>
-              No issues fetched. Please fetch issues to view them here.
-            </td>
-          </tr>
+          <React.Fragment>
+            <tr>
+              <td colSpan={3}>
+                No issues fetched. Please fetch issues to view them here.
+              </td>
+            </tr>
+            <tr>
+              <td colSpan={3}>Or</td>
+            </tr>
+            <tr>
+              <td colSpan={3}>
+                No valid issues available. Check your criteria.
+              </td>
+            </tr>
+          </React.Fragment>
         ) : (
           issues.map((issue) => (
             <React.Fragment key={issue.id}>
