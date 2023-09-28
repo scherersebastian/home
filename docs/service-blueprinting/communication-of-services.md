@@ -36,7 +36,7 @@ A separate section for each process or service. In Docusaurus or other documenta
 
 - Page one: A short summary with the service blueprint graphic. Page can be built like a sales page, depending on the service or process.
 
-- Page two: A video or HTML presentation of the service. Integrating the presentation directly into the web page makes sharing especially easy (_compared to a well known product from MS_). The presentation or video can be clicked through by the customer or used by a colleague for demonstration.
+- Page two: A video or [HTML presentation](remote-presentations.md) of the service. Integrating the presentation directly into the web page makes sharing especially easy (_compared to a well known product from MS_). The presentation or video can be clicked through by the customer or used by a colleague for demonstration.
 
 - Page three: A detailed explanation of the process with related links.
 
