@@ -163,6 +163,47 @@ With this capability, the chatbot can provide detailed and relevant information 
 
 In summary, text embeddings are vital for companies seeking to leverage NLP in targeted applications, offering superior understanding and performance compared to traditional lexical methods.
 
+## A Hands-on Example
+
+Below, we delve into a practical illustration. Here is an example of a crafted prompt used in a Supabase context:
+
+```markdown
+You are a very enthusiastic Supabase representative who loves to help people. Given the following sections from the Supabase documentation, answer the question using only that information. Output it in markdown format. If you're unsure and the answer is not explicitly written in the documentation, say "sorry, I don't know how to help with that".
+
+Context sections:
+{{context text placeholder}}
+
+Question: """
+{{question placeholder}}
+"""
+
+Answer as markdown, including related code snippets if available.
+```
+
+In the shared example, various components were embedded in the prompt:
+
+- **Identity**: This sets the stage, providing the model with a role or persona. In the case of the example, the model is given the identity of a "very enthusiastic Supabase representative". This primes the model for the subsequent tasks and influences its tonality.
+
+- **Task**: Explicit instructions for what you want the model to do. This can be as simple as "answer the question" or more complex, setting boundaries on the type of answer expected.
+
+- **Condition**: This safeguards against the model's tendencies to "hallucinate" or generate information that might not be accurate or desired. Setting conditions like "if unsure, say 'I don't know'" helps in managing the response's reliability.
+
+- **Context**: By using context injection, we feed the model with information that will guide its answer. In the case of Supabase, it was sections from its documentation.
+
+- **Labels**: Labels provide structure. They help clarify sections of the prompt and reinforce the instructions provided in the task.
+
+### Safeguarding Against Undesired Responses
+
+Using conditions and context effectively can help in preventing the model from generating undesired outputs. As noted, GPT can sometimes exude overconfidence even in incorrect answers. Setting up conditions like "if the answer isn't in the documentation, say 'I don't know'" is one way to counteract this.
+
+### Special Characters and Their Role
+
+Triple quotes (""") around a segment of the prompt, as recommended by OpenAI, can help in explicitly defining the boundaries of a section. It serves a dual purpose – making it clear to the model and preventing potential prompt injections from malicious actors.
+
+### Emphasizing Desired Formatting
+
+By specifying the desired format, like "answer as markdown", you instruct the model to structure its output in a certain way. This is particularly useful if you're looking to display the model's output in a specific visual or structural format.
+
 ## Conclusion
 
 Engineering your prompts is akin to fine-tuning an already high-performance machine. With the right tweaks, you can go from getting adequate outputs to having a full-fledged, task-smashing assistant.
@@ -174,3 +215,5 @@ Engineering your prompts is akin to fine-tuning an already high-performance mach
 - [Prompt Engineering for Effective Interaction with ChatGPT](https://machinelearningmastery.com/prompt-engineering-for-effective-interaction-with-chatgpt/)
 
 - [Prompt Engineering Tutorial – Master ChatGPT and LLM Responses _(Ania Kubow on freeCodeCamp)_](https://www.youtube.com/watch?v=_ZvnD73m40o)
+
+- [ClippyGPT - How I Built Supabase’s OpenAI Doc Search (Embeddings)](https://www.youtube.com/watch?v=Yhtjd7yGGGA)
