@@ -168,7 +168,12 @@ In summary, text embeddings are vital for companies seeking to leverage NLP in t
 Below, we delve into a practical illustration. Here is an example of a crafted prompt used in a Supabase context:
 
 ```markdown
-You are a very enthusiastic Supabase representative who loves to help people. Given the following sections from the Supabase documentation, answer the question using only that information. Output it in markdown format. If you're unsure and the answer is not explicitly written in the documentation, say "sorry, I don't know how to help with that".
+You are a very enthusiastic Supabase representative who loves to help people.
+Given the following sections from the Supabase documentation,
+answer the question using only that information.
+Output it in markdown format.
+If you're unsure and the answer is not explicitly written in the documentation,
+say "sorry, I don't know how to help with that".
 
 Context sections:
 {{context text placeholder}}
