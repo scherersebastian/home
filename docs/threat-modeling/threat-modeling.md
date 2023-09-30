@@ -4,17 +4,13 @@ slug: /threat-modeling
 
 # Threat Modeling
 
-Threat Modeling is a proactive security practice aimed at systematically identifying, prioritizing, and addressing security vulnerabilities in a system. It starts by creating a detailed model of the system's architecture, covering data flows, entry and exit points, and all interacting components. This model serves as a comprehensive blueprint that engineers use to simulate various attack scenarios.
+This section and its subsequent subsections cover the fundamentals of Threat Modeling.
 
-Threat modeling serves as an essential first step for implementing a security strategy. By running simulated attacks on the system model, engineers can identify critical vulnerabilities.
+Threat Modeling is an engineering-focused approach to proactively identify and prioritize system vulnerabilities. It involves creating a system architecture model detailing data flows, entry/exit points, and component interactions. Engineers utilize this model to simulate attack scenarios, pinpointing critical vulnerabilities.
 
-You threat model to identify threats to your component, which then lets you know where you need to concentrate your resources.
+This practice is fundamental to initiate a robust security strategy, guiding resource allocation for system hardening.
 
-Effectively laying the groundwork for building a secure infrastructure from the ground up.
-
-## Further Materials
-
-All of the listed training materials are free:
+For a deeper dive:
 
 - [Microsoft Training - Threat Modeling Security Fundamentals](https://docs.microsoft.com/en-us/learn/paths/tm-threat-modeling-fundamentals/)
 
