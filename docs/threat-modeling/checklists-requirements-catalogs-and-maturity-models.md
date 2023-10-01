@@ -8,7 +8,7 @@ Security isn't about ticking boxes or leveling up like you're in some retro vide
 
 **Checklists** — these are your quick reference guides. They're there to ensure consistency among both internal testing teams and external vendors. Just remember, while they offer tips for planning, reviewing, and even for issuing Request for Information (RFI) documents for security assessments, they're not your endgame. They're like those recipe cards grandma used to have — useful but not exhaustive.
 
-For example, there's the web application checklist by Lenny Zeltser. Great place to start, but every application is its own beast, and you might need to spice things up a bit depending on your dish.
+For example, there's the web application [checklist by Lenny Zeltser](https://zeltser.com/security-architecture-cheat-sheet/). Great place to start, but every application is its own beast, and you might need to spice things up a bit depending on your dish.
 
 **Requirements Catalogs** — Alright, moving on to the heavy-duty stuff. The Application Security Verification Standard (ASVS) requirements catalog from OWASP is a favorite. It's widely recognized and could be labeled the quasi-standard for web app requirements. It's like your main course in a fancy meal; solid, substantial, and fulfilling in most cases.
 
