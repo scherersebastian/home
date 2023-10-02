@@ -1,5 +1,5 @@
 ---
-slug: low-code
+slug: low-code-vs-no-code-simplifying-software-development
 authors: scherersebastian
 tags: [Low Code, No Code]
 ---
