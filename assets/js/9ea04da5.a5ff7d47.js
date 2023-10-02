@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhome=self.webpackChunkhome||[]).push([[2199],{6331:a=>{a.exports=JSON.parse('{"label":"Post-Quantum Cryptography","permalink":"/home/blog/tags/post-quantum-cryptography","allTagsPath":"/home/blog/tags","count":1}')}}]);

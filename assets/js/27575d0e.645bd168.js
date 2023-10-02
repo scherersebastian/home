@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhome=self.webpackChunkhome||[]).push([[4433],{7681:e=>{e.exports=JSON.parse('{"permalink":"/home/blog/tags/post-quantum-cryptography","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
