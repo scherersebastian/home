@@ -12,7 +12,7 @@ Despite their similarities, they have some key differences.
 
 <!--truncate-->
 
-Low Code:
+**Low Code**:
 
 - Low Code platforms typically require some level of coding knowledge, but they greatly reduce the amount of code that needs to be written manually. They are generally more suitable for professional developers or those with a basic understanding of coding, as they can customize the application with custom code.
 
@@ -20,7 +20,7 @@ Low Code:
 
 - They can handle more complex applications and are more flexible in terms of functionality.
 
-No Code:
+**No Code**:
 
 - No Code platforms are designed for users with no coding experience, allowing them to create applications by solely using visual tools and pre-built components.
 
