@@ -6,7 +6,7 @@ tags: [Prompt Engineering, AI]
 
 # Understanding Adversarial Attacks on LLMs
 
-If you're elbow-deep in AI research or engineering, this one's a wakeup call. Recent studies have unveiled a new class of vulnerabilities in Large Language Models (LLMs) – and it’s not just theoretical.
+If you're elbow-deep in AI research or engineering, this one's a wakeup call. Recent studies have unveiled a new class of vulnerabilities in Large Language Models (LLMs) - and it's not just theoretical.
 
 Researchers have published a paper showing how to automate the discovery of prompt injection attacks: [Universal and Transferable Adversarial Attacks on Aligned Language Models](https://arxiv.org/abs/2307.15043)
 

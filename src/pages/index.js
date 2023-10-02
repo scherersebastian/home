@@ -104,6 +104,14 @@ export default function Home() {
 
               <div className="col col--7">
                 <Blog
+                  title="Understanding Adversarial Attacks on LLMs"
+                  description="If you're elbow-deep in AI research or engineering, this one's a wakeup call. Recent studies have unveiled a new class of vulnerabilities in Large Language Models (LLMs) - and it's not just theoretical."
+                  link="/blog/understanding-adversarial-attacks-on-llms"
+                  tags={["Prompt Engineering", "AI"]}
+                  date="October 2023"
+                />
+
+                <Blog
                   title="Mastering the Art of Prompt Engineering"
                   description="Let's get one thing straight: If you think ChatGPT is just a toy to generate random text, you're wildly missing the mark. This model can be your trusty sidekick, an assistant that can tackle anything from code to research. But you've got to know how to talk to it. No, I don't mean saying please and thank you — I'm talking about mastering the art of prompt engineering. Prompt engineering is not straightforward; it requires careful thought and various considerations."
                   link="/blog/mastering-the-art-of-prompt-engineering"
