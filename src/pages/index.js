@@ -118,6 +118,14 @@ export default function Home() {
                   tags={["Prompt Engineering", "AI", "CoPilot"]}
                   date="September 2023"
                 />
+
+                <Blog
+                  title="Low Code vs. No Code: Simplifying Software Development"
+                  description="Low Code and No Code are both software development approaches aimed at simplifying the development process by reducing the amount of manual coding required. They enable individuals with little or no programming experience to create applications and automate processes using visual, drag-and-drop interfaces."
+                  link="/blog/low-code-vs-no-code-simplifying-software-development"
+                  tags={["Low Code", "No Code"]}
+                  date="April 2022"
+                />
               </div>
             </div>
           </Section>
