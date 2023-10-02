@@ -20,11 +20,11 @@ According to Mozilla, cars are data gluttons, with over 90% of brands offering m
 
 While these brands don't skimp on voluminous privacy policies, they are eerily silent on whether they adhere to even rudimentary security norms like data encryption.
 
-As a security engineer working for one of the manufacturers mentioned, I've closely reviewed the list of [_Minimum Security Standards_](<(https://foundation.mozilla.org/en/privacynotincluded/about/methodology/)>). I can confirm that my employer adheres to all of them. However, it's important to understand that these requirements, as pointed out by Mozilla, are quite minimal.
+As a security engineer working for one of the manufacturers mentioned, I've closely reviewed the list of [_Minimum Security Standards_](https://foundation.mozilla.org/en/privacynotincluded/about/methodology/). I can confirm that my employer adheres to all of them. However, it's important to understand that these requirements, as pointed out by Mozilla, are quite minimal.
 
 It is unclear whether the reviewed privacy agreements pertain solely to U.S. contracts or also encompass those from Europe, where data protection regulations are notably stricter.
 
-Drive safe :)
+Drive safe.
 
 ## References
 
