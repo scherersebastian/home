@@ -10,6 +10,8 @@ The responsibility of the U.S. National Institute of Standards and Technology (N
 
 Two glaring issues stand out: the FIPS 140-3 certification backlog and the slow pace of post-quantum cryptography advancements.
 
+<!--truncate-->
+
 FIPS 140-3, which outlines encryption standards for a broad range of technologies, is grappling with significant product approval backlogs. If not addressed soon, this lag might become a pivotal crisis, especially with rapid quantum tech developments.
 
 ## A Brief Dive into FIPS 140-3 Delays
