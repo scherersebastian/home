@@ -1,7 +1,7 @@
 ---
 slug: how-to-suck-at-information-security
 authors: scherersebastian
-tags: [Security, Rage]
+tags: [Security, Best Practice]
 ---
 
 # How to Suck at Information Security
@@ -10,6 +10,6 @@ This [cheat sheet](https://zeltser.com/suck-at-security-cheat-sheet/) presents c
 
 Yeah, the idea is that you should do the opposite of what it says.
 
-![Prompt engineering meme](assets/security-is-hard.png)
-
 <!--truncate-->
+
+![Prompt engineering meme](assets/security-is-hard.png)
