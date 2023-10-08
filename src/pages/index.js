@@ -92,8 +92,6 @@ export default function Home() {
               My writing style is concise - no blah. If you struggle with
               directness, please bow out.
             </p>
-
-            <p className={styles.text}>Welcome to my home on the internet!</p>
           </Section>
 
           <Section border={true}>
