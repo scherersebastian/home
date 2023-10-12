@@ -16,7 +16,7 @@ However, let's face it. While these catalogs can be an excellent reference, expe
 
 **Maturity Models** — And now for the pièce de résistance. Maturity models like the Cybersecurity Maturity Model Certification (CMMC) or the OWASP Software Component Verification Standard (SCVS) give you a way to measure your security sophistication. Think of them as the health check-ups of the security world. They'll point out what's working, what's not, and where you should be heading.
 
-But (and this is a big 'but'), while these models can show you the path, they can't walk it for you. Aim to progress, sure, but don't get so focused on the destination that you forget about the journey. Remember, a model, no matter how comprehensive, won't patch a vulnerability for you.
+But (and this is a big _but_), while these models can show you the path, they can't walk it for you. Aim to progress, sure, but don't get so focused on the destination that you forget about the journey. Remember, a model, no matter how comprehensive, won't patch a vulnerability for you.
 
 ## Streamlining Security Checks for Developers
 
