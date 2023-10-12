@@ -5,7 +5,7 @@ authors: scherersebastian
 tags: [Prompt Engineering, AI]
 ---
 
-In the age of advanced machine learning, we have gained an assistant that never tires, is always ahead of the business curve, and boasts the combined knowledge of the world with an IQ of 145. The challenge now? Mastering the art of prompt engineering to communicate effectively with this unparalleled digital aide.
+In the age of advanced machine learning, we have gained an assistant that never tires, is always ahead of the business curve, and boasts the combined knowledge of the world with an IQ of 145. The challenge now? Mastering the art of prompt engineering to communicate effectively with this unparalleled digital assistant.
 
 If you think ChatGPT is just a toy to generate random text, you're wildly missing the mark. This model can be your trusty sidekick, an assistant that can tackle anything from code to research. But you've got to know how to talk to it. No, I don't mean saying _please_ and _thank you_.
 
