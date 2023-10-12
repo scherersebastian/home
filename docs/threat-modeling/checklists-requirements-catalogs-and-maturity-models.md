@@ -23,7 +23,7 @@ But (and this is a big _but_), while these models can show you the path, they ca
 
 ## Streamlining Security Checks for Developers
 
-Adding _another dashboard tool_ to a developer's toolbelt can be met with justifiable skepticism. Yet, there are tools that stand out in their efforts to bridge the traditional and the modern.
+Adding _another dashboard tool_ to a developer's toolbelt can be met with justifiable skepticism. Or even better, another Excel spreadsheet. Yet, there are tools that stand out in their efforts to bridge the traditional and the modern.
 
 Take _OSSF Scorecard_, for instance. While not flawless, it serves as a beacon for where we should be heading. This tool transcends the checkbox mentality, offering a comprehensive assessment of your code against pivotal security heuristics. Presented as scores ranging from 0 to 10, Scorecard provides developers with an immediate sense of potential security hotspots.
 
