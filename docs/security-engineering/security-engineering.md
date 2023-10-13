@@ -21,6 +21,10 @@ Integrating security early in the development process, or _shifting left,_ leads
 
 ## What a developer-friendly security enginner does
 
+![What a security enginner does](assets/security-engineer.jpg)
+
+There are many different roles in the field of information security. _I see myself as a security engineer_ and agree with the following definition from Google. The role of a security architect closely aligns with that of a security engineer. However, the fundamental difference is that security engineers are much closer to the technology and the actual code. This proximity allows them to better understand developers, as they can communicate with them on an equal footing. Additionally, compared to security architects, security engineers also have the capability to implement and execute solutions.
+
 That's how Google defines what a developer-friendly security enginner does [1]:
 
 - A security engineer manually analyzes each project to understand its context and specific security needs.
