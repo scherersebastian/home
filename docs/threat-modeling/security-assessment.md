@@ -10,11 +10,19 @@ STRIDE is a mnemonic representing six types of security threats (Spoofing, Tampe
 
 STRIDE is not the sole approach to threat modeling, but due to its simplicity and effectiveness, especially in software-centric environments, it is the most widely adopted framework in the industry.
 
+Regularly, one or more workshops are scheduled, during which the subsequent sections are tackled together.
+
+:::info
+
+If there is an architecture diagram and a list of the processed data, it becomes significantly easier and less time-consuming.
+
+:::
+
 ## Writing a Good Data Flow Diagram
 
 Having a good diagram is key to a good threat model.
 
-The first step is to draw a diagram of the flow of data in your component. It's the DATA flow you care about, NOT the code flow. Your threats come via data, NOT code.
+The first step is to draw a diagram of the flow of data in your component. It's the _DATA_ flow you care about, NOT the code flow. Your threats come via data, NOT code.
 
 _This might sound overly simplified, and yes, code can be a hot mess waiting to be exploited too. But for the purposes of this enlightening tutorial, we're center-staging the data flow diagram. Code chaos can take a backseat for once. Für die Besserwisser: consider this a footnote just for you._
 
