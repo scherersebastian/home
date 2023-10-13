@@ -12,4 +12,4 @@ Yeah, the idea is that you should do the opposite of what it says.
 
 <!--truncate-->
 
-![Prompt engineering meme](assets/security-is-hard.png)
+![Prompt engineering meme](assets/Cybersecurity_Meme_14.webp)

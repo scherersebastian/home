@@ -10,7 +10,9 @@ STRIDE is a mnemonic representing six types of security threats (Spoofing, Tampe
 
 STRIDE is not the sole approach to threat modeling, but due to its simplicity and effectiveness, especially in software-centric environments, it is the most widely adopted framework in the industry.
 
-Regularly, one or more workshops are scheduled, during which the subsequent sections are tackled together.
+Regularly, one or more workshops are scheduled, during which the subsequent sections are tackled together. Developers love these workshops where you take their app apart.
+
+![Threat modeling workshops](assets/10-Separate-Zones.png)
 
 :::info
 
