@@ -4,10 +4,20 @@
         <title>Sebastian Scherer Blog</title>
         <link>https://scherersebastian.github.io/home/blog</link>
         <description>Sebastian Scherer Blog</description>
-        <lastBuildDate>Mon, 02 Oct 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 12 Oct 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[How to Suck at Information Security]]></title>
+            <link>https://scherersebastian.github.io/home/blog/how-to-suck-at-information-security</link>
+            <guid>https://scherersebastian.github.io/home/blog/how-to-suck-at-information-security</guid>
+            <pubDate>Thu, 12 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[This cheat sheet presents common information security mistakes, so you can avoid making them.]]></description>
+            <content:encoded><![CDATA[<p>This <a href="https://zeltser.com/suck-at-security-cheat-sheet/" target="_blank" rel="noopener noreferrer">cheat sheet</a> presents common information security mistakes, so you can avoid making them.</p><p>Yeah, the idea is that you should do the opposite of what it says.</p><p><img loading="lazy" alt="Prompt engineering meme" src="/home/assets/images/security-is-hard-34566e3d109c3456dbe1470b4c42f18c.png" width="260" height="725" class="img_ev3q"></p>]]></content:encoded>
+            <category>Security</category>
+            <category>Rage</category>
+        </item>
         <item>
             <title><![CDATA[Car Privacy: Mozilla's Observations]]></title>
             <link>https://scherersebastian.github.io/home/blog/car-privacy-mozillas-observations</link>
