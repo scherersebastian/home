@@ -29,6 +29,6 @@ Simplest solutions:
 
 If customization is your thing, ponder over building your unique threat modeling tool. While it might sound intimidating initially, leveraging tools like Mermaid.js can ease the process. Plus, the modern low-code platforms might just surprise you with their efficiency and adaptability. Don't shy away from crafting something precisely tuned to your requirements.
 
-_For those who might be wondering why I skipped over Excel tools: I guess some territories remain uncharted for a reason!_
+_For those who might be wondering why I skipped over Excel "tools": I guess some territories remain uncharted for a reason!_
 
 Looking ahead, there's an intriguing horizon for threat modeling. With the advancement of Generative AI, many threat modeling processes can be streamlined and automated. Investing in this domain of tooling could have significant payoffs. But, that's a topic worth its own deep dive in another post.
