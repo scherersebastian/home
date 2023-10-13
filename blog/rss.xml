@@ -16,7 +16,7 @@
             <description><![CDATA[This cheat sheet presents common information security mistakes, so you can avoid making them.]]></description>
             <content:encoded><![CDATA[<p>This <a href="https://zeltser.com/suck-at-security-cheat-sheet/" target="_blank" rel="noopener noreferrer">cheat sheet</a> presents common information security mistakes, so you can avoid making them.</p><p>Yeah, the idea is that you should do the opposite of what it says.</p><p><img loading="lazy" alt="Prompt engineering meme" src="/home/assets/images/security-is-hard-34566e3d109c3456dbe1470b4c42f18c.png" width="260" height="725" class="img_ev3q"></p>]]></content:encoded>
             <category>Security</category>
-            <category>Rage</category>
+            <category>Best Practice</category>
         </item>
         <item>
             <title><![CDATA[Car Privacy: Mozilla's Observations]]></title>
