@@ -14,6 +14,8 @@ In the realm of security, ensuring that vulnerabilities are addressed promptly i
 
 This article explores the idea of seamlessly integrating findings and potential threats directly into the development workflow as issues or stories.
 
+<!--truncate-->
+
 Such an approach not only streamlines the process but also empowers developers to address security concerns efficiently without leaving their familiar development environment.
 
 ## The Efficiency of Integrated Findings
