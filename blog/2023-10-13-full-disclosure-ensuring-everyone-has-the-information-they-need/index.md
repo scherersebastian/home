@@ -6,11 +6,7 @@ tags: [Security, Full Disclosure]
 
 # Full Disclosure: Ensuring Everyone Has the Information They Need
 
-:::info
-
-While I personally lean towards the Coordinated Disclosure approach, in this article I delve deep into the perspective of my more _free-thinking_ security colleagues to better understand their viewpoint.
-
-:::
+_While I personally lean towards the Coordinated Disclosure approach, in this article I delve deep into the perspective of my more free-thinking security colleagues to better understand their viewpoint._
 
 Ensuring that software or hardware vendors can address vulnerabilities before bad actors can find and exploit them is crucial.
 
