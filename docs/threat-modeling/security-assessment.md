@@ -24,7 +24,7 @@ If there is an architecture diagram and a list of the processed data, it becomes
 
 There is often debate about which methodology should be used for threat modeling, to the point where it almost becomes a religious matter. In my opinion, there are far more important considerations than the methodology itself. Since threat modeling is built upon a model, the quality of that model dictates the assessment much more. Furthermore, the expertise of the individual conducting the assessment in the given technology is crucial. Without technical proficiency, the assessment is bound to fail regardless of the methodology used. A competent security professional will identify existing or potential threats, irrespective of the methodology employed.
 
-_In my personal experience, individuals who lack technical security expertise often gravitate towards discussing methodology, as it allows them to engage in a conversation without delving into the technical depths or undertaking actual assessment work._
+_In my personal experience, individuals who lack technical security expertise often gravitate towards discussing methodology, as it allows them to engage in a conversation without delving into the technical depths or doing actual assessment work._
 
 ## Writing a Good Data Flow Diagram
 
