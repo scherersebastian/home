@@ -10,7 +10,9 @@ Threat Modeling is an engineering-focused approach to proactively identify and p
 
 This practice is fundamental to initiate a robust security strategy, guiding resource allocation for system hardening.
 
-For a deeper dive:
+In the following sections, two approaches are presented. The first is detailed, best suited for security professionals to execute, while the second is a streamlined version designed for development teams to conduct as a self-assessment.
+
+For a deeper dive - training material almost everyone in the _security industry_ is familiar with:
 
 - [Microsoft Training - Threat Modeling Security Fundamentals](https://docs.microsoft.com/en-us/learn/paths/tm-threat-modeling-fundamentals/)
 

@@ -10,9 +10,9 @@ Security isn't about ticking boxes or leveling up like you're in some retro vide
 
 For example, there's the web application [checklist by Lenny Zeltser](https://zeltser.com/security-architecture-cheat-sheet/). Great place to start, but every application is its own beast.
 
-**Requirements Catalogs** — Alright, moving on to the heavy-duty stuff. The Application Security Verification Standard (ASVS) requirements catalog from OWASP is a favorite. It's widely recognized and could be labeled the quasi-standard for web app requirements. 
+**Requirements Catalogs** — Alright, moving on to the heavy-duty stuff. The Application Security Verification Standard (ASVS) requirements catalog from OWASP is a favorite. It's widely recognized and could be labeled the quasi-standard for web app requirements.
 
-While these catalogs can be an excellent reference, expecting teams to meticulously fill them out for every project is like asking someone to read the entire `Terms and Conditions` before clicking `I Agree`. 
+While these catalogs can be an excellent reference, expecting teams to meticulously fill them out for every project is like asking someone to read the entire `Terms and Conditions` before clicking `I Agree`.
 Great in theory, but in the real world? Not happening. But they sure are handy as a reference. Got a tricky security question? Dive into one of these catalogs. More often than not, you'll find your answer.
 
 **Maturity Models** — And now for the pièce de résistance. Maturity models like the Cybersecurity Maturity Model Certification (CMMC) or the OWASP Software Component Verification Standard (SCVS) give you a way to measure your security sophistication. Think of them as the health check-ups of the security world. They'll point out what's working, what's not, and where you should be heading.

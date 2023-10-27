@@ -20,19 +20,15 @@ GitHub Copilot Chat is unique in its real-time, context-aware capabilities. It's
 
 The example below performs a security code review with GitHub CoPilot Chat for a Dockerfile.
 
-```plaintext
-Perform a security code review for the selected code, consider known security rules related to container security.
-```
+> Perform a security code review for the selected code, consider known security rules related to container security.
 
 ![Dockerfile Security Code Reivew](assets/Screenshot_from_2023-09-11_19-21-02.png)
 
 The Dockerfile configures the root user which is a security risk, as a compromised container could potentially endanger the host server or other containers. This also contradicts the principle of least privilege, which states that software should run with the minimal necessary permissions to minimize potential security risks. Additionally, containers running as root can make unintended and potentially harmful changes to the system.
 
-Now you can ask Copilot Chat why this was not listed in the security code review.
+Now you can ask Copilot Chat why this was not listed in the security code review (_~best practice: review your outputs because of hallucinations_).
 
-```plaintext
-Why don't you say anything about the root user?
-```
+> Why don't you say anything about the root user?
 
 ![Dockerfile Security Code Reivew No Root](assets/Screenshot_from_2023-09-12_21-42-42.png)
 

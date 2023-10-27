@@ -31,15 +31,11 @@ Alright, before we get into the nitty-gritty techniques, let's set the stage wit
 
 **Instead of:**
 
-```plaintext
-Write 5 tech articles.
-```
+> Write 5 tech articles.
 
 **A well-engineered prompt would look like:**
 
-```plaintext
-Generate titles and abstracts for 5 tech articles focusing on the impact of machine learning on healthcare. Each abstract should be around 100-150 words. Aim for topics that would be relevant for CTOs of healthcare startups. Output the results as a numbered list.
-```
+> Generate titles and abstracts for 5 tech articles focusing on the impact of machine learning on healthcare. Each abstract should be around 100-150 words. Aim for topics that would be relevant for CTOs of healthcare startups. Output the results as a numbered list.
 
 Here, the revised prompt leaves no room for misinterpretation. It clearly specifies the number of articles, the subject focus (machine learning in healthcare), the target audience (CTOs of healthcare startups), and even the format in which the output should be presented. The more specific you are, the more accurate and tailored the output will be.
 
@@ -59,15 +55,11 @@ The elementary method of asking and receiving.
 
 Instead of:
 
-```plaintext
-Translate the following text into French.
-```
+> Translate the following text into French.
 
 Say:
 
-```plaintext
-Translate the following English text into French: "The weather is fine."
-```
+> Translate the following English text into French: "The weather is fine."
 
 Clarity is king. Specificity leads to more accurate outputs.
 
@@ -75,11 +67,9 @@ Clarity is king. Specificity leads to more accurate outputs.
 
 Zero-Shot is like throwing a dart in the dark; One-Shot and Few-Shot light up the board.
 
-```plaintext
-Zero-Shot: Recommend some video games.
-One-Shot: Recommend video games similar to "Animal Crossing."
-Few-Shot: Recommend video games based on my liking for "Animal Crossing," "Stardew Valley," and "Harvest Moon."
-```
+> Zero-Shot: Recommend some video games.
+> One-Shot: Recommend video games similar to "Animal Crossing."
+> Few-Shot: Recommend video games based on my liking for "Animal Crossing," "Stardew Valley," and "Harvest Moon."
 
 Your level of specificity dictates the relevance of the recommendations.
 
@@ -89,9 +79,7 @@ Zero-shot uses the model's existing training to answer queries without additiona
 
 For problems that require more brainpower, guide the model through a logical progression.
 
-```plaintext
-How would you optimize a bubble sort algorithm for efficiency? Think this through step by step.
-```
+> How would you optimize a bubble sort algorithm for efficiency? Think this through step by step.
 
 This will make the model break down the problem logically, perhaps suggesting using a different sorting algorithm altogether.
 
@@ -99,9 +87,7 @@ This will make the model break down the problem logically, perhaps suggesting us
 
 Machines aren't perfect. Teach the LLM to critique its work for increased accuracy.
 
-```plaintext
-Review the SQL query you just generated. Does it follow best practices? If not, please rewrite it.
-```
+> Review the SQL query you just generated. Does it follow best practices? If not, please rewrite it.
 
 This will get the model to scrutinize its own output, allowing you to catch and correct errors proactively.
 
@@ -115,17 +101,13 @@ You could first ask for a list of top cybersecurity threats for 2023, then inqui
 
 Have ChatGPT help you ask better questions. For example:
 
-```plaintext
-What kind of prompt would help you generate a more efficient sorting algorithm?
-```
+> What kind of prompt would help you generate a more efficient sorting algorithm?
 
 ### Model-Guided Prompting
 
 ChatGPT can ask you for the info it needs to perform a specific task.
 
-```plaintext
-Develop a machine learning model for sentiment analysis. What do you need to know from me?
-```
+> Develop a machine learning model for sentiment analysis. What do you need to know from me?
 
 This eliminates guesswork and leads to a more customized output.
 
@@ -171,23 +153,16 @@ In summary, text embeddings are vital for companies seeking to leverage NLP in t
 
 Below, we delve into a practical illustration. Here is an example of a crafted prompt used in a Supabase context:
 
-```markdown
-You are a very enthusiastic Supabase representative who loves to help people.
-Given the following sections from the Supabase documentation,
-answer the question using only that information.
-Output it in markdown format.
-If you're unsure and the answer is not explicitly written in the documentation,
-say "sorry, I don't know how to help with that".
-
-Context sections:
-{{context text placeholder}}
-
-Question: """
-{{question placeholder}}
-"""
-
-Answer as markdown, including related code snippets if available.
-```
+> You are a very enthusiastic Supabase representative who loves to help people. Given the following sections from the Supabase documentation, answer the question using only that information. Output it in markdown format. If you're unsure and the answer is not explicitly written in the documentation, say "sorry, I don't know how to help with that".
+>
+> Context sections:
+> {{context text placeholder}}
+>
+> Question: """
+> {{question placeholder}}
+> """
+>
+> Answer as markdown, including related code snippets if available.
 
 In the shared example, various components were embedded in the prompt:
 
@@ -207,7 +182,7 @@ Using conditions and context effectively can help in preventing the model from g
 
 ### Special Characters and Their Role
 
-Triple quotes (""") around a segment of the prompt, as recommended by OpenAI, can help in explicitly defining the boundaries of a section. It serves a dual purpose – making it clear to the model and preventing potential prompt injections from malicious actors.
+Triple quotes (`"""`) around a segment of the prompt, as recommended by OpenAI, can help in explicitly defining the boundaries of a section. It serves a dual purpose – making it clear to the model and preventing potential prompt injections from malicious actors.
 
 ### Emphasizing Desired Formatting
 
