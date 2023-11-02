@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhome=self.webpackChunkhome||[]).push([[2338],{3290:e=>{e.exports=JSON.parse('{"permalink":"/home/blog/tags/git-hub-advanced-security","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

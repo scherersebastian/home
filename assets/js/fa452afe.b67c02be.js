@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhome=self.webpackChunkhome||[]).push([[7495],{4464:e=>{e.exports=JSON.parse('{"label":"GitHub Advanced Security","permalink":"/home/blog/tags/git-hub-advanced-security","allTagsPath":"/home/blog/tags","count":2}')}}]);
