@@ -102,6 +102,26 @@ export default function Home() {
 
               <div className="col col--7">
                 <Blog
+                  title="IssueInjector: Centralizing All Security Findings in GitHub Without Paying for Advanced Security"
+                  description="IssueInjector is a GitHub action adept at converting security findings, notably from SARIF (Static Analysis Results Interchange Format), into GitHub issues. It not only creates issues for new findings but also auto-closes resolved ones."
+                  link="/blog/issueinjector-centralizing-all-security-findings-in-github-without-paying-for-advanced-security"
+                  tags={["GitHub Advanced Security", "Security"]}
+                  date="November 2023"
+                />
+
+                <Blog
+                  title="Streamlining Security: Integrating Findings as Development Issues"
+                  description="During my work as a security engineer on the CatenaX project, I made a significant discovery. We had integrated the Veracode tool, and developers could only access their findings by switching to the Veracode platform. This meant that developers had to go through the time-comsuming process of logging into another platform, creating a new set of credentials, requesting access, and then attempting to locate their findings within the huge Veracode platform. It was an ineffective and frustrating process."
+                  link="/blog/streamlining-security-integrating-findings-as-development-issues"
+                  tags={[
+                    "Security Engineering",
+                    "GitHub Advanced Security",
+                    "Security",
+                  ]}
+                  date="October 2023"
+                />
+
+                <Blog
                   title="Understanding Adversarial Attacks on LLMs"
                   description="If you're elbow-deep in AI research or engineering, this one's a wakeup call. Recent studies have unveiled a new class of vulnerabilities in Large Language Models (LLMs) - and it's not just theoretical."
                   link="/blog/understanding-adversarial-attacks-on-llms"

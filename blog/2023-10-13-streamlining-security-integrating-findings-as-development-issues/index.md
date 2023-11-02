@@ -1,7 +1,7 @@
 ---
 slug: streamlining-security-integrating-findings-as-development-issues
 authors: scherersebastian
-tags: [Security Engineering, Findings, Issues]
+tags: [Security Engineering, GitHub Advanced Security, Security]
 ---
 
 # Streamlining Security: Integrating Findings as Development Issues
