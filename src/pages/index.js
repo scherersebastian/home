@@ -85,12 +85,7 @@ export default function Home() {
             </p>
 
             <p className={styles.text}>
-              My credo is <i>Security must be developer-friendly</i>.
-            </p>
-
-            <p className={styles.text}>
-              My writing style is concise - no blah. If you struggle with
-              directness, please bow out.
+              My credo with regard to security is <i>"security must be developer-friendly"</i>.
             </p>
           </Section>
 
