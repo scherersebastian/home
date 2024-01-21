@@ -19,6 +19,10 @@ The paper _"Do Users Write More Insecure Code with AI Assistants?"_ focuses on a
 
 The study aims to inform the development of future AI-based coding assistants by providing a detailed analysis of how users interact with these tools and the impact on code security. The authors also released the user interface used in the study to encourage similar research in the future. This paper contributes to the broader understanding of the implications of AI assistance in coding, especially in the context of writing secure code.
 
+Without specific instructions for security, the AI-generated code might be vulnerable. However, when directed to prioritize security, the AI produces more secure code. 
+
+The AI can also effectively review its own code for security issues.
+
 We'll see what the future holds.
 
 ## References
