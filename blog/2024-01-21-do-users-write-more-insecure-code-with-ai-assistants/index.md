@@ -15,6 +15,8 @@ The paper _"Do Users Write More Insecure Code with AI Assistants?"_ focuses on a
 
 3. **Impact of User Engagement and Trust**: The study found that users who were less trusting of the AI and who actively modified their prompts (e.g., by re-phrasing questions or adjusting settings) produced code with fewer security vulnerabilities.
 
+<!--truncate-->
+
 The study aims to inform the development of future AI-based coding assistants by providing a detailed analysis of how users interact with these tools and the impact on code security. The authors also released the user interface used in the study to encourage similar research in the future. This paper contributes to the broader understanding of the implications of AI assistance in coding, especially in the context of writing secure code.
 
 We'll see what the future holds.
