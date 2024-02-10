@@ -17,3 +17,5 @@ For a deeper dive - training material almost everyone in the _security industry_
 - [Microsoft Training - Threat Modeling Security Fundamentals](https://docs.microsoft.com/en-us/learn/paths/tm-threat-modeling-fundamentals/)
 
 - [Threat Modeling Manifesto](https://www.threatmodelingmanifesto.org/)
+
+- [Self-assessment](https://github.com/cncf/tag-security/blob/main/assessments/guide/self-assessment.md)
