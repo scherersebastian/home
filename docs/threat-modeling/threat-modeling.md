@@ -18,4 +18,4 @@ For a deeper dive - training material almost everyone in the _security industry_
 
 - [Threat Modeling Manifesto](https://www.threatmodelingmanifesto.org/)
 
-- [Self-assessment](https://github.com/cncf/tag-security/blob/main/assessments/guide/self-assessment.md)
+- [CNCF self-assessment](https://github.com/cncf/tag-security/blob/main/assessments/guide/self-assessment.md)
