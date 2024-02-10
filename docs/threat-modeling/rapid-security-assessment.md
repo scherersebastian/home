@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Rapid Security Assessment
 
-When detailed security assessments are not feasible due to time or resource constraints, a more streamlined approach becomes crucial. Drawing inspiration from [Mozilla's Rapid Risk Assessment (RRA)](https://infosec.mozilla.org/guidelines/risk/rapid_risk_assessment.html), I am introducing a method primarily focused on data. Remember, we're zeroing in on services, not individual controls or processes.
+When detailed security assessments are not feasible due to time or resource constraints, a more streamlined approach becomes crucial. Drawing inspiration from [Mozilla's Rapid Risk Assessment (RRA)](https://infosec.mozilla.org/guidelines/risk/rapid_risk_assessment.html), I am introducing a method primarily focused on data. 
 
 ## Key Points
 
