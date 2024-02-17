@@ -40,7 +40,7 @@ My personal experience also reflects that discussions often devolve into stubbor
 >
 > 10. **Critique code instead of people – be kind to the coder, not to the code.** As much as possible, make all of your comments positive and oriented to improving the code. Relate comments to local standards, program specs, increased performance, etc.
 >
-> - Jeff Atwood
+> — Jeff Atwood
 
 In reality, adhering to these ten commandments is easier said than done.
 
