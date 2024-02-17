@@ -241,7 +241,7 @@ As you can see, all options are a tradeoff between guaranteed supply chain integ
 
 GitHub Actions are a great way to rapidly build a functional CI/CD pipeline for your GitHub projects. From an attacker’s perspective, they are part of a much broader CI/CD attack surface that also includes any third-party artifact integrations and API interactions. Beyond the usual code review for untrusted input handling, CI/CD supply chain integrity requires careful vetting of your dependencies and any changes that occur in those dependencies. By applying the concepts of least privilege, change attestation, and tracking as well as ensuring that third parties don’t have mutable control over your CI/CD supply chain, you can actively start to take charge of your CI/CD supply chain security.
 
-## Resources
+## References
 
 - [Four tips to keep your GitHub Actions workflows secure](https://github.blog/2023-08-09-four-tips-to-keep-your-github-actions-workflows-secure/)
 
