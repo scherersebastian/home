@@ -4,10 +4,20 @@
         <title>Sebastian Scherer Blog</title>
         <link>https://scherersebastian.github.io/home/blog</link>
         <description>Sebastian Scherer Blog</description>
-        <lastBuildDate>Thu, 08 Feb 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 17 Feb 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Self-Check Security: Encouraging Developers with Timeless Principles]]></title>
+            <link>https://scherersebastian.github.io/home/blog/self-check-security-encouraging-developers-with-timeless-principles</link>
+            <guid>https://scherersebastian.github.io/home/blog/self-check-security-encouraging-developers-with-timeless-principles</guid>
+            <pubDate>Sat, 17 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[In today's world, where keeping apps secure is more critical than ever, developers have a unique edge. They know their code and setup inside out, which means they don't have to wait for a security expert to come in and do a security check. This isn't about dumping more work on developers - they've got enough on their plates already. It's more about encouraging them to use that know-how to check their own work for security issues.]]></description>
+            <content:encoded><![CDATA[<p>In today's world, where keeping apps secure is more critical than ever, developers have a unique edge. They know their code and setup inside out, which means they don't have to wait for a security expert to come in and do a security check. This isn't about dumping more work on developers - they've got enough on their plates already. It's more about encouraging them to use that know-how to check their own work for security issues.
+By sticking to some core security principles laid out by Saltzer and Schroeder back in the day (<em>1975</em>), developers can totally handle doing a solid security check on their apps if they want to.</p><p>Saltzer and Schroeder's security basics:</p><ol><li><p><strong>Least Privilege</strong>: Keep it tight. Only give access and permissions for what's absolutely necessary, cutting down on misuse chances.</p></li><li><p><strong>Fail-Safe Defaults</strong>: If you're not sure, say no. Only allow stuff that's explicitly okayed to keep things secure by default.</p></li><li><p><strong>Economy of Mechanism</strong>: Keep it simple. The simpler the security, the easier it is to manage and make sure it's doing its job.</p></li><li><p><strong>Complete Mediation</strong>: Check every access to make sure it's legit, avoiding any sneaky misuse of permissions.</p></li><li><p><strong>Open Design</strong>: Don't rely on keeping your security a secret. A solid system stays secure even when attackers know how it works.</p></li><li><p><strong>Separation of Privilege</strong>: Make sure doing anything important requires more than one check to cut down on abuse.</p></li><li><p><strong>Least Common Mechanism</strong>: Share as little as possible between users and processes to keep attack paths to a minimum.</p></li><li><p><strong>Psychological Acceptability</strong>: Don't make security a pain to use. If it's too annoying, people will just find ways around it.</p></li></ol><h2 class="anchor anchorWithStickyNavbar_LWe7" id="references">References<a href="#references" class="hash-link" aria-label="Direct link to References" title="Direct link to References">​</a></h2><ul><li><a href="https://ieeexplore.ieee.org/document/1451869" target="_blank" rel="noopener noreferrer">Saltzer and Schroeder - <em>The protection of information in computer systems</em></a></li></ul>]]></content:encoded>
+            <category>Security</category>
+        </item>
         <item>
             <title><![CDATA[Secure Your GitHub Actions Workflows with These Tips]]></title>
             <link>https://scherersebastian.github.io/home/blog/secure-your-github-actions-workflows-with-these-tips</link>
