@@ -15,7 +15,7 @@ For example, there's the web application [checklist by Lenny Zeltser](https://ze
 While these catalogs can be an excellent reference, expecting teams to meticulously fill them out for every project is like asking someone to read the entire `Terms and Conditions` before clicking `I Agree`.
 Great in theory, but in the real world? Not happening. But they sure are handy as a reference. Got a tricky security question? Dive into one of these catalogs. More often than not, you'll find your answer.
 
-**Maturity Models** — And now for the pièce de résistance. Maturity models like the Cybersecurity Maturity Model Certification (CMMC) or the OWASP Software Component Verification Standard (SCVS) give you a way to measure your security sophistication. Think of them as the health check-ups of the security world. They'll point out what's working, what's not, and where you should be heading.
+**Maturity Models** — Maturity models like the Cybersecurity Maturity Model Certification (CMMC) or the OWASP Software Component Verification Standard (SCVS) give you a way to measure your security sophistication. Think of them as the health check-ups of the security world. They'll point out what's working, what's not, and where you should be heading.
 
 But (and this is a big _but_), while these models can show you the path, they can't walk it for you. Aim to progress, sure, but don't get so focused on the destination that you forget about the journey. Remember, a model, no matter how comprehensive, won't patch a vulnerability for you.
 
