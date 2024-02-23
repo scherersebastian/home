@@ -27,7 +27,7 @@ Whether it's checklists, requirements catalogs, or maturity models, all of these
 
 Adding _another dashboard tool_ to a developer's toolbelt can be met with justifiable skepticism. Or even better, another Excel spreadsheet. Yet, there are tools that stand out in their efforts to bridge the traditional and the modern.
 
-Take _OSSF Scorecard_, for instance. While not flawless, it serves as a beacon for where we should be heading. This tool transcends the checkbox mentality, offering a comprehensive assessment of your code against pivotal security heuristics. Presented as scores ranging from 0 to 10, Scorecard provides developers with an immediate sense of potential security hotspots.
+Take _OSSF Scorecard_, for instance. While not flawless, it serves as a beacon for where we should be heading. This tool transcends the checkbox mentality, offering a comprehensive assessment of your repo against pivotal security heuristics. Presented as scores ranging from 0 to 10, Scorecard provides developers with an immediate sense of potential security hotspots.
 
 But here's the real game-changer (_~overused word_): tools like Scorecard are designed for the modern development ecosystem. They can operate as GitHub Actions, seamlessly integrating into our workflow. This means that with a mere push of a button, Scorecard can be scaled across every developer project, ensuring consistent and automated security checks.
 
