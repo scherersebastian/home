@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://scherersebastian.github.io/home/blog</id>
     <title>Sebastian Scherer Blog</title>
-    <updated>2024-02-17T00:00:00.000Z</updated>
+    <updated>2024-03-12T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://scherersebastian.github.io/home/blog"/>
     <subtitle>Sebastian Scherer Blog</subtitle>
     <icon>https://scherersebastian.github.io/home/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Sharing Prompts: Boost Your Work Efficiency]]></title>
+        <id>https://scherersebastian.github.io/home/blog/sharing-prompts-boost-your-work-efficiency</id>
+        <link href="https://scherersebastian.github.io/home/blog/sharing-prompts-boost-your-work-efficiency"/>
+        <updated>2024-03-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I explored a website called AI for Work full of professional AI prompts to streamline work tasks.]]></summary>
+        <content type="html"><![CDATA[<p>I explored a website called <a href="https://www.aiforwork.co/" target="_blank" rel="noopener noreferrer">AI for Work</a> full of professional AI prompts to streamline work tasks.</p><p>AI for Work provides over 2,000 prompts across various departments like marketing, sales, law, HR, and <em>information security</em>, aiming to save time and enhance job performance.</p><p>Reusing prompts fine-tunes the AI's understanding of your unique requirements, leading to more accurate and relevant content that aligns closely with your goals, thus maximizing productivity.</p><p>This is how it works. First, visit the <a href="https://www.aiforwork.co/" target="_blank" rel="noopener noreferrer">AI for Work website</a>, choose your department and job title, and select a prompt tailored to your role. After copying the prompt to your clipboard, go to ChatGPT, select the GPT-4 option, and paste the prompt. GPT-4 will introduce itself and ask five questions to understand your specific needs better. Your answers help create personalized content.</p><p>Initially, GPT-4 generates a first draft, which might not meet your expectations. However, the process doesn't stop here. The prompt instructs GPT-4 to self-assess its draft based on six criteria, rate itself, and suggest improvements. You're presented with options for revising the work. By choosing to revise, GPT-4 incorporates feedback, keeps track of changes, and reassesses the content, improving with each iteration. This cycle can continue until the content reaches a near-perfect rating, all within five minutes.</p><p>For a deeper understanding, GPT-4 can explain how it used reference materials from three selected books to produce the final version. This method, demonstrating self-evaluation, iterative improvement, and the use of external references, is applicable to a wide range of tasks.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="my-conclusion">My Conclusion<a href="#my-conclusion" class="hash-link" aria-label="Direct link to My Conclusion" title="Direct link to My Conclusion">​</a></h2><p>It unfortunately leads to excessive paper usage, a downside for me. I mainly experimented with the <a href="https://www.aiforwork.co/prompts/chatgpt-prompt-chief-information-security-officer-executive-management-create-a-security-architecture-document" target="_blank" rel="noopener noreferrer">Security Assessment Prompt</a>. Additionally, it falls short in providing technical depth and contextual insight. This is understandable given the input provided lacks sufficient context. I still prefer the "classic" RAG technique, which also involves carefully crafted prompts.</p><p>However, I find the idea of collecting and sharing prompts brilliant.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="references">References<a href="#references" class="hash-link" aria-label="Direct link to References" title="Direct link to References">​</a></h2><ul><li><p><a href="https://www.aiforwork.co/prompts/chatgpt-prompt-chief-information-security-officer-executive-management-create-a-security-architecture-document" target="_blank" rel="noopener noreferrer">Create A Security Architecture Document</a></p></li><li><p><a href="https://www.aiforwork.co/" target="_blank" rel="noopener noreferrer">AI for Work</a></p></li></ul>]]></content>
+        <author>
+            <name>Sebastian Scherer</name>
+            <uri>https://scherersebastian.github.io/home/</uri>
+        </author>
+        <category label="AI" term="AI"/>
+        <category label="Engineering" term="Engineering"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Beyond Being Right: Cultivating a Collaborative Engineering Mindset with Insights from Jeff Bezos]]></title>
         <id>https://scherersebastian.github.io/home/blog/beyond-being-right-cultivating-a-collaborative-engineering-mindset-with-insights-from-jeff-bezos</id>
