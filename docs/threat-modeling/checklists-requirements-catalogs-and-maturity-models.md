@@ -15,19 +15,19 @@ For example, there's the web application [checklist by Lenny Zeltser](https://ze
 While these catalogs can be an excellent reference, expecting teams to meticulously fill them out for every project is like asking someone to read the entire `Terms and Conditions` before clicking `I Agree`.
 Great in theory, but in the real world? Not happening. But they sure are handy as a reference. Got a tricky security question? Dive into one of these catalogs. More often than not, you'll find your answer.
 
-**Maturity Models** — Maturity models like the Cybersecurity Maturity Model Certification (CMMC) or the OWASP Software Component Verification Standard (SCVS) give you a way to measure your security sophistication. Think of them as the health check-ups of the security world. They'll point out what's working, what's not, and where you should be heading.
+**Maturity Models** — Maturity models like the [OWASP Software Assurance Maturity Model (SAMM)](https://owasp.org/www-project-samm/), Cybersecurity Maturity Model Certification (CMMC) or the OWASP Software Component Verification Standard (SCVS) give you a way to measure your security sophistication. Think of them as the health check-ups of the security world. They'll point out what's working, what's not, and where you should be heading.
 
 But (and this is a big _but_), while these models can show you the path, they can't walk it for you. Aim to progress, sure, but don't get so focused on the destination that you forget about the journey. Remember, a model, no matter how comprehensive, won't patch a vulnerability for you.
 
 Whether it's checklists, requirements catalogs, or maturity models, all of these lists are extremely time-consuming and exhausting to complete, so don't push it to the limit. Besides, there's always a list you haven't filled out yet.
 
-![Prompt engineering meme](assets/security-requirements-meme.webp)
+![Security requirements meme](assets/security-requirements-meme.webp)
 
 ## Streamlining Security Checks for Developers
 
 Adding _another dashboard tool_ to a developer's toolbelt can be met with justifiable skepticism. Or even better, another Excel spreadsheet. Yet, there are tools that stand out in their efforts to bridge the traditional and the modern.
 
-Take _OSSF Scorecard_, for instance. While not flawless, it serves as a beacon for where we should be heading. This tool transcends the checkbox mentality, offering a comprehensive assessment of your repo against pivotal security heuristics. Presented as scores ranging from 0 to 10, Scorecard provides developers with an immediate sense of potential security hotspots.
+Take [_OSSF Scorecard_](https://github.com/ossf/scorecard), for instance. While not flawless, it serves as a beacon for where we should be heading. This tool transcends the checkbox mentality, offering a comprehensive assessment of your repo against pivotal security heuristics. Presented as scores ranging from 0 to 10, Scorecard provides developers with an immediate sense of potential security hotspots.
 
 But here's the real game-changer (_~overused word_): tools like Scorecard are designed for the modern development ecosystem. They can operate as GitHub Actions, seamlessly integrating into our workflow. This means that with a mere push of a button, Scorecard can be scaled across every developer project, ensuring consistent and automated security checks.
 
